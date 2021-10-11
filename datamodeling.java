@@ -215,7 +215,7 @@ public class datamodeling {
             NeedsAnalysis, ClosedWon, Qualification, ClosedLost, Prospecting
         }
         System.out.println("\n\n-------Opportunities--------");
-        Opportunity op1 = new Opportunity(+"Analysing an Application", (new BigDecimal("20000")),Stages.Prospecting);
+        Opportunity op1 = new Opportunity("Analysing an Application", (new BigDecimal("20000")),Stages.Prospecting);
         Opportunity op2 = new Opportunity("Configration of router", (new BigDecimal("9000")), Stages.ClosedWon);
         Opportunity op3 = new Opportunity("Creating an Application", (new BigDecimal("1000")), Stages.ClosedLost);
         Opportunity op4 = new Opportunity("Configration of router", (new BigDecimal("50000")), Stages.Prospecting);
